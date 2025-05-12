@@ -1,5 +1,10 @@
 # DOI Labeler Tools
 
+## 🚀 Quick Install Links
+
+- 🔗 [Install DOI Labeler Panel](https://timnik82.github.io/doi-labeler-tools/doi_panel_labeler.user.js)
+- 🔗 [Install Google Scholar Checker](https://timnik82.github.io/doi-labeler-tools/scholar_checker.user.js)
+
 This repository contains Tampermonkey userscripts and backend integration tools designed to support manual review and labeling of scientific articles based on their DOI and metadata. It streamlines the categorization process for researchers working with large literature datasets.
 
 ---
