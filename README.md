@@ -84,7 +84,6 @@ function doPost(e) {
 ## 📌 Future Improvements
 
 * Add fuzzy title matching
-* Handle infinite scroll in Google Scholar
 * Optional column normalization during submission
 * Support for additional scholarly databases
 
