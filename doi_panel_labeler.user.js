@@ -100,10 +100,13 @@
         });
     }
 
+    // "No" always sends label = "No"
     document.getElementById('noBtn').onclick = () => sendData("No");
+
+    // "Yes" now sends the selected short key rather than the full phrase
     document.getElementById('catBtn').onclick = () => {
-        const short = document.getElementById('categorySelect').value;
-        sendData("Yes", categoryMap[short]);
+        const selectedKey = document.getElementById('categorySelect').value;
+        sendData("Yes", selectedKey);
     };
 
     fetch(csvUrl)
